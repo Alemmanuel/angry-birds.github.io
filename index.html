@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="positiontop()">
+    <div class="card">
+        <div class="text">Vi:<input class="text1" type="text" value="100" min="20" max="200" id="vi"></div>
+        <div class="text">Theta:<input class="text1" type="text" value="45" id="theta"></div>
+        <div>
+            <select id="planets" onchange="backgroundchange()">
+                Planet:
+                <option value="9.807">Earth</option>
+                <option value="1.62">Moon</option>
+                <option value="274">Sun</option>
+                <option value="3.7">Mercury</option>
+                <option value="8.87">Venus</option>
+                <option value="3.721">Mars</option>
+                <option value="24.79">Jupiter</option>
+                <option value="10.44">Saturn</option>
+                <option value="8.870">Uranus</option>
+                <option value="11.15">Neptune</option>
+                <option value="0.62">Pluto</option>
+            </select>
+        </div>
+        <div>
+            <select id="character" onchange="characterchange()">
+                Character:
+                <option value="ball">Ball</option>
+                <option value="rocket">Rocket</option>
+                <option value="car">Car</option>
+                <option value="neptune">Neptune</option>
+                <option value="dog">Dog</option>
+                <option value="earth">Earth</option>
+                <option value="saturn">Saturn</option>
+            </select>
+        </div>
+        <div style="display: flex;">
+            <div><button onclick="startmove()">Move</button></div>
+            <div><button onclick="resolve()">Resolve</button></div>
+            <div><button onclick="burst()">Burst</button></div>
+            <div><button onclick="character()">Character</button></div>
+        </div>
+        <div id="area"></div>
+        <div>
+            <img id="birdsred" src="https://gifimage.net/wp-content/uploads/2017/09/balon-de-futbol-gif-13.gif" alt="">
+            <hr style="margin-top: 15px; width: 98%; height: 12px; background-color:slategray; border-color: black;">
+        </div>
+        <div>
+            <img class="dog" id="objetive" src="https://i.gifer.com/origin/52/52e4bb28d095ff93d3a4019d43d628bc.gif">
+        </div>
+    </div>
+    <div class="text card2" id="puntos"></div>
+
+    <div class="card1" id="info">
+
+    </div>
+</body>
+
+</html>

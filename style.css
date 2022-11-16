@@ -1,0 +1,81 @@
+body {
+    background-image: url('https://s1.significados.com/foto/earth-11015-1920-41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#birdsred {
+    top: 400px;
+    position: absolute;
+    width: 50px;
+}
+
+hr {
+    position: absolute;
+    top: 435px;
+}
+
+.dog {
+    position: absolute;
+    width: 200px;
+    left: 500px;
+    top: 315px;
+}
+.text{
+    color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-style: ridge;
+    border-radius: 30px;
+    border-width: 3px;
+    box-shadow: 5px, 5px, 5px, 5px, rgb(0, 102, 255);
+    background: linear-gradient(blue, red);}
+div{
+    padding: 5px;
+}
+.text1{
+    border-radius: 10px;
+    color: orangered;
+    position: absolute;
+    left: 130px;
+}
+button{
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgb(0, 132, 255), red);
+    color: whitesmoke;
+}
+.card1{
+    left: 1030px;
+    width: 300px;
+    top: 7px;
+    height: 197px;
+    border-style: ridge;
+    position: absolute;
+    border-radius: 30px;
+    border-width: 3px;
+    box-shadow: 5px, 5px, 5px, 5px, rgb(0, 102, 255);
+    background: linear-gradient(blue, red);
+    color: white;
+    font-family: cursive;
+    padding: 10px;
+}
+.card2{
+    left: 600px;
+    width: 80px;
+    height: 80px;
+    top: 7px;
+    border-style: ridge;
+    position: absolute;
+    border-radius: 30px;
+    border-width: 3px;
+    box-shadow: 5px, 5px, 5px, 5px, rgb(0, 102, 255);
+    background: linear-gradient(blue, red);
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
